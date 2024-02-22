@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 31, 71, 0.9), rgba(0, 31, 49, 0.7)), url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.landingPage{
+    margin: auto;
+    display: flex;
+    height: 400px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.form{
+    width: 80%;
+    margin: auto;
+}
+
+.form h3{
+    margin: 15px 0;
+    font-size: 60px;
+    font-style: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  #003985;
+    text-align: center;
+}
+
+.form input{
+    width: 100%;
+    padding:15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: 2px solid #003985;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form button{
+    width: 100%;
+    padding:15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color:  #003985;
+    color: #fff;
+}
+
+.form button:hover{
+    background-color:  #012a5f;
+}
