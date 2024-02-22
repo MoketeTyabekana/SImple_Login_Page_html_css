@@ -34,7 +34,7 @@ body{
 
 .form h3{
     margin: 15px 0;
-    font-size: 60px;
+    font-size: 100px;
     font-style: normal;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:  #003985;
@@ -66,5 +66,9 @@ body{
 }
 
 .form button:hover{
-    background-color:  #012a5f;
+    background-color:  #001636;
+}
+
+span{
+    color: #001636;
 }
